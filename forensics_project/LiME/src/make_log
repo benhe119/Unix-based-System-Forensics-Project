@@ -1,0 +1,8 @@
+make -C /lib/modules/4.15.0-kali2-amd64/build M="/root/Desktop/forensics_project/LiME/src" modules
+make[1]: Entering directory '/usr/src/linux-headers-4.15.0-kali2-amd64'
+  Building modules, stage 2.
+  MODPOST 1 modules
+  LD [M]  /root/Desktop/forensics_project/LiME/src/lime.ko
+make[1]: Leaving directory '/usr/src/linux-headers-4.15.0-kali2-amd64'
+strip --strip-unneeded lime.ko
+mv lime.ko lime-4.15.0-kali2-amd64.ko
