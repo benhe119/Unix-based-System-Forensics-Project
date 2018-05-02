@@ -1,5 +1,5 @@
 # Unix-based-System-Forensics-Project
-Created an Incident Response Tool for Unix-based System Forensics Project
+Created an Incident Response Tool for my Unix-based System Forensics Project
 usage:
 * Download genIRator directory
 * Run the genIRator.sh as root
